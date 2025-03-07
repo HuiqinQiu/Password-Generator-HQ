@@ -9,7 +9,7 @@ A simple yet powerful password generator that allows users to customize password
 - One-click copy of the selected password, making it easy to paste into websites or applications
 
 ## Live Demo
-You can try the live demo [here]
+You can try the live demo here: https://huiqinqiu.github.io/Password-Generator-HQ/
 
 ## Project Screenshot 
 <img width="521" alt="image" src="https://github.com/user-attachments/assets/d37f475a-b30b-464f-a09a-9bd6c5a95d8d" />
