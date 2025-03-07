@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Password Generator-HQ</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Password Generator</h1>
+
+			<div class="settings">
+				<div class="setting">
+					<label for="length">Please select password length</label>
+					<input type="number" id="length" min="4" max="20" value="12" />
+				</div>
+				<div class="setting">
+					<label for="uppercase">Include uppercase letters</label>
+					<input type="checkbox" id="uppercase" checked />
+				</div>
+				<div class="setting">
+					<label for="lowercase">Include lowercase letters</label>
+					<input type="checkbox" id="lowercase" checked />
+				</div>
+				<div class="setting">
+					<label for="numbers">Include numbers</label>
+					<input type="checkbox" id="numbers" checked />
+				</div>
+				<div class="setting">
+					<label for="symbols">Include special symbols</label>
+					<input type="checkbox" id="symbols" />
+				</div>
+			</div>
+
+			<button id="generate" class="btn">Generate Passwords</button>
+
+			<div class="password-container">
+				<div class="password" id="password1">
+					<div class="strength-meter">
+						<p>Password 1 Strength: <span id="strength-text1">None</span></p>
+						<div class="strength-bar">
+							<div id="strength-indicator1"></div>
+						</div>
+					</div>
+					<div class="result">
+						<span id="result1">Password 1 will be displayed here</span>
+						<button id="copy1" class="copy-btn">Copy</button>
+					</div>
+				</div>
+
+				<div class="password" id="password2">
+					<div class="strength-meter">
+						<p>Password 2 Strength: <span id="strength-text2">None</span></p>
+						<div class="strength-bar">
+							<div id="strength-indicator2"></div>
+						</div>
+					</div>
+					<div class="result">
+						<span id="result2">Password 2 will be displayed here</span>
+						<button class="copy-btn" id="copy2">Copy</button>
+					</div>
+				</div>
+
+				<div class="password" id="password3">
+					<div class="strength-meter">
+						<p>Password 3 Strength: <span id="strength-text3">None</span></p>
+						<div class="strength-bar">
+							<div id="strength-indicator3"></div>
+						</div>
+					</div>
+					<div class="result">
+						<span id="result3">Password 3 will be displayed here</span>
+						<button class="copy-btn" id="copy3">Copy</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
